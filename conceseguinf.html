@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+﻿<!DOCTYPE HTML>
 <html>
 	<head>
     	<title>Ovi SegInf</title>
@@ -8,7 +8,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <link rel="stylesheet" href="css/normalize.css" type="text/css" />
-        <link rel="stylesheet" href="css/estilo.css" type="text/css" />
+        <link rel="stylesheet" href="css/estilo1.css" type="text/css" />
     <script src="js/jquery-1.11.3.min.js"></script>
     <script src="/ovi/js/jquery.js"></script>
     <script src="/ovi/js/modernizr.js"></script>
@@ -24,47 +24,152 @@
             	<li><a href="index.html">Inicio</a></li>
                 <li><a href="conceseguinf.html">Conceptos</a></li>
                 <li><a href="estandseguinf.html">Estándares</a></li>
-                <li><a href="controlseguinf.html">Cobit</a></li>
-                <li><a href="controlesseguinf.html">Control</a></li>
-                <li><a href="autorescursoseginf.html">Autores</a></li>
+                <li><a href="cobiseguinf.html">Cobit</a></li>
+                <li><a href="controlseguinf.html">Control</a></li>
+                <li><a href="autorescursoseguinf.html">Autores</a></li>
             </ul>
             </nav>
 	   
         <section id="presentacion">
+            <article>
             
-            <h2>Bienvenidos a nuestro curso de seguridad informática.  A continuación, les presentamos una introducción a los contenidos y temáticas que se van a tratar durante cada sesión.</h2>
-            <iframe src="https://www.youtube.com/embed/KiuTyXehW-8?showinfo=0&rel=0" frameborder="0" allowfullscreen ></iframe>
-            <br>Vídeo creado por: Colegio Secundario Don Bosco (2010-11-23).  Seguridad Informática.
+            <h3>Cordial saludo, en la presente sección vamos a hablar sobre seguridad informática y algunos conceptos relacionados con el tema (Amenazas, vulnerabilidades, riesgos, controles informáticos)</h3>
+            
+            <h2>Seguridad informática</h2>
+            
+            <p>La podemos definir como el proceso de prevenir y detectar el uso no autorizado de un sistema informático. Implica el proceso de proteger contra intrusos el uso de nuestros recursos informáticos con intenciones maliciosas o con intención de obtener ganancias, o incluso la posibilidad de acceder a ellos por accidente.<p>
+            <p>En este sentido, la Seguridad Informática sirve para la protección de la información, en contra de amenazas o peligros, para evitar daños y para minimizar riesgos, relacionados con ella.</p>
+
+            <p align="center"><img id="imagenes" src="img/security.jpeg"></p>
+
+            <p>La seguridad informática cubre cuatro importantes áreas como son:</p>
+            
+            <ul id="lista">
+            <li>Confidencialidad: Sólo los usuarios autorizados pueden acceder a nuestros recursos, datos e información.</li>
+            <li>Integridad: Sólo los usuarios autorizados deben ser capaces de modificar los datos cuando sea necesario.</li>
+            <li>Disponibilidad: Los datos deben estar disponibles para los usuarios cuando sea necesario.</li>
+            <li>Autenticación: Es la situación en la cual se puede verificar que un documento ha sido elaborado o pertenece a quien el documento dice. La autenticación de los sistemas informático se realizan habitualmente mediante nombre y contraseña. </li>
+            </ul>
+            
+            <p align="center"><img id="imagenes" src="img/bank.jpg"></p>
+
+            <p>Considerar aspectos de seguridad significa conocer el peligro, clasificarlo y protegerse de los impactos o daños de la mejor manera posible. Esto significa que solamente cuando estamos consientes de las potenciales amenazas podemos tomar medidas de protección.<p>
+            <p>Dependiendo del enfoque que se le de a la seguridad informática, un sistema informático está expuesto al peligro por medio de dos factores: Las amenazas y las vulnerabilidades.</p><p>&nbsp;</p>
+            
+            <h2>Amenazas</h2>
+            
+            <p>Las amenazas son eventos que pueden causar alteraciones a la información de la organización ocasionándole pérdidas materiales, económicas, de información, y de prestigio.</p>
+            <p>Las amenazas pueden ser:</p>
+            
+            <ul id="lista">
+            <li>Humanas: Personas curiosas, hackers, ladrones, estafadores, fraudes, otros.</li>
+            <li>Físicas: Daños en los equipos por fluído eléctrico, mal uso, falta de cuidado, falta de protección (equipo vulnerable), desgaste o errores de fabricación.</li>
+            <li>Lógicas: Sistemas operativos y/o aplicaciones vulnerables, virus, errores de diseño en los aplicativos o programas.</li>
+            <li>Naturales: Incendios, terremotos, inundaciones y otros tipos de desastres naturales.</li>
+            </ul>
+
+            <p align="center"><img id="imagenes" src="img/danger.jpeg"></p>
             <p>&nbsp;</p>
+
+            <h2>Vulnerabilidades</h2>
             
-            <article class="articulos">
-            <div id="seguridad"></div>
-            <h4>Seguridad Informática</h4>
-            <p>La podemos definir como el proceso de prevenir y detectar el uso no autorizado de un sistema informático. Implica el proceso de proteger contra intrusos el uso de nuestros recursos informáticos con intenciones maliciosas o con intención de obtener ganancias, o incluso la posibilidad de acceder a ellos por accidente.</p>
-            <p>En este sentido, la Seguridad Informática sirve para la protección de la información, en contra de amenazas o peligros, para evitar daños y para minimizar riesgos, relacionados con ella.</p><p><a href="conceseguinf.html">Abrir lección</a></p>
-            </article>
+            <p>Una vulnerabilidad informática es un elemento de un sistema informático que puede ser aprovechado por un atacante para violar la seguridad, así mismo pueden causar daños por sí mismos sin tratarse de un ataque intencionado.</p>
+            <p>A las vulnerabilidades se les consideran un elemento interno del sistema,  por lo que es tarea de los administradores y usuarios  el detectarlos, valorarlos y reducirlos.</p>
 
-            <article class="articulos">
-            <div id="estandar"></div>
-            <h4>Estándares De Seguridad Informática</h4>
-            <p>Se puede definir como un patrón, modelo o conjunto de normas a seguir.  En ese sentido, Los estándares de seguridad son una herramienta que apoya la gestión de la seguridad informática.  Existen diferentes tipos estándares, entre ellos tenemos: ISO 17799, TCSEC, ISO 15408, ISO 27000 y BS7799. </p><p><a href="estandseguinf.html">Abrir lección</a></p>
-            </article>
+            <p align="center"><img id="imagenes" src="img/martillo.jpeg"></p>
 
-            <article class="articulos">
-            <div id="cobit"></div>
-            <h4>La Norma Cobit Para Evaluar Riesgos</h4>
-            <p>Las mejores prácticas en auditoria recomiendan Cobit como la herramienta estándar para tecnologías de información más utilizada en la ejecución de auditorías.</p>
-            <p>Niveles de  Cobit: La estructura del estándar Cobit se divide en dominios que son agrupaciones de procesos que corresponden a una responsabilidad personal, procesos que son una serie de actividades unidas con delimitación o cortes de control y objetivos de control o actividades requeridas para lograr un resultado medible.</p>
-            <p><a href="cobiseguinf.html">Abrir lección</a></p>
-            </article>
+            <p>Las vulnerabilidades en seis tipos: Físicas, naturales, de hardware, de software, de red y de factor humano.</p>
+            
+            <ul id="lista">
+            <li>Físicas: Es todo lo referente al acceso de las instalaciones, equipos y medios físicos permitiendo la extración de información.</li>
+            <li>Naturales: Daños ocasiones en los equpos por tormentas eléctricas, inundaciones y otro tipo de amenazas naturales.</li>
+            <li>Hardware: Representa la probabilidad de que las piezas físicas del sistema fallen (ya sea por mal uso, descuido, mal diseño, sabotate, otros) dejando al sistema desprotegido o inoperable.</li>
+            <li>Software: Se presenta cuando un programa o aplicación es susceptible de ser usado como medio para violar la seguridad de la empresa.</li>
+            <li>Red: Se refiere a la penetración de uno de los equipos para luego expandirse en la red, interceptar información o afectar la disponibilidad de la misma.</li>
+            <li>Humanos: Se evidencian en falta de conciencia, responsabilidad, ética que puede facilitar el robo de información, sabotaje o violación a la seguridad digital de la empresa.</li>
+            </ul>
 
-            <article class="articulos">
-            <div id="controles"></div>
-            <h4>Control Informático</h4>
-            <p>Se puede definir el control informático como "cualquier actividad o acción realizada manual y/o automáticamente para prevenir, corregir errores o irregularidades que puedan afectar al funcionamiento de un sistema para lograr o conseguir sus objetivos.</p>
-            <p>Los controles se clasifican en los siguientes: Preventivos, detectivos, correctivos. </p>
-            <p><a href="controlseguinf.html">Abrir lección</a></p>
-            </article>
+            <p>&nbsp;</p>
+
+            <h2>Riesgos</h2>
+
+            <p>Es la posibilidad de que una amenaza se materialice, dando lugar al ataque a un equipo o a la información.</p>
+            <p>La Gestión de Riesgo es un método para determinar, analizar, valorar y clasificar el riesgo, para posteriormente implementar mecanismos que permitan controlarlo.</p>
+            
+            <p align="center"><img id="imagenes" src="img/banana.jpg"></p>
+
+            <p>En su forma general contiene cuatro fases:</p>
+
+            <ul id="lista">
+            <li>Análisis: Determina los componentes de un sistema que requiere protección, sus vulnerabilidades que lo debilitan y las amenazas que lo ponen en peligro, con el resultado de revelar su grado de riesgo.</li>
+            <li>Clasificación: Determina si los riesgos encontrados y los riesgos restantes son bajos, aceptables o altos. Lo anterior según el impacto, daño que producirían en la empresa y su información.</li>
+            <li>Reducción: Define e implementa las medidas de protección.  Además sensibiliza y capacita los usuarios conforme a las medidas.</li>
+            <li>Control: Analiza el funcionamiento, la efectividad y el cumplimiento de las medidas, para determinar y ajustar las medidas deficientes y sanciona el incumplimiento.</li>
+            </ul>
+
+            <p>Todo el proceso está basado en las llamadas políticas de seguridad, normas y reglas institucionales, que forman el marco operativo del proceso, con el propósito de:</p>
+
+            <ul id="lista">
+            <li>Potenciar las capacidades institucionales, reduciendo la vulnerabilidad y limitando las amenazas con el resultado de reducir el riesgo.</li>
+            <li>Orientar el funcionamiento organizativo y funcional.</li>
+            <li>Garantizar comportamiento homogéneo.</li>
+            <li>Garantizar corrección de conductas o prácticas que nos hacen vulnerables.</li>
+            <li>Conducir a la coherencia entre lo que pensamos, decimos y hacemos.</li>
+            </ul>
+            <p>&nbsp;</p>
+
+            <h2>Control Informático:</h2>
+
+            <p>Cualquier acción realizada para prevenir, corregir, evitar irregularidades con equipos y sistemas de información.</p>
+            <p>La Gestión de Riesgo es un método para determinar, analizar, valorar y clasificar el riesgo, para posteriormente implementar mecanismos que permitan controlarlo.</p>
+            
+            <p align="center"><img id="imagenes" src="img/bad.jpg"></p>
+
+            <p>Hablar de controles y medidas que permitan a las organizaciones contrarrestar este tipo de riesgo puede ser complicado, pero es posible tomar acciones que lleven a su mitigación. El aseguramiento puede realizarse desde tres niveles:</p>
+            <p>&nbsp;</p>
+
+            <p>Nivel Físico: En este nivel, las medidas a tomar son referidas a la aplicación de procedimientos de control y barreras físicas ante amenazas para prevenir daño o acceso no autorizado a recursos e información confidencial que sea guardada en la infraestructura física. Dentro de éstas se encuentran:</p>
+
+            <ul id="lista">
+            <li>Controles de acceso físico, que pueden incluir el uso de sistemas biométricos y vigilantes.</li>
+            <li>Manejo de tokens o tarjetas de identificación.</li>
+            <li>Controles a nivel de equipos, tales como ubicación y protección, seguridad en cableado o mantenimiento periódico de equipos.</li>
+            <li>Servicios básicos (energía, agua y alcantarillado, entre otros) de soporte para continuidad.</li>
+            <li>Gestión de medios de almacenamiento removible.</li>
+            <li>Controles de vulnerabilidades técnicas, entre otros.</li>
+            </ul>
+            <p>&nbsp;</p>
+
+            <p>Nivel Lógico: Las medidas a tomar se dan con respecto al uso de software y sistemas, enfocadas a proteger los datos y garantizar el acceso autorizado a la información. Como parte de estas medidas se pueden tomar:</p>
+
+            <ul id="lista">
+            <li>Controles de acceso lógico con la gestión de usuarios, perfiles y privilegios para acceso a aplicaciones y gestión de contraseñas.</li>
+            <li>Controles de acceso a la red interna y externa, segregación en redes y controles para asegurar servicios de la red.</li>
+            <li>Controles a nivel de teletrabajo y equipos móviles.</li>
+            <li>Soluciones de protección contra malware.</li>
+            <li>Respaldos de bases de datos e información crítica.</li>
+            <li>Protocolos para intercambio de información y cifrado de información.</li>
+            <li>Monitoreo de los sistemas, sincronización de relojes y protección sobre registros.</li>
+            <li>Limitación en tiempos de conexión a aplicativos y cierres de sesión por inactividad.</li>
+            <li>Gestión de control de cambios, entre otros.</li>
+            </ul>
+            <p>&nbsp;</p>
+
+            <p>Nivel Personal: Es el nivel más crítico dentro de las organizaciones, dada la naturaleza impredecible del personal o recurso humano. Las medidas a este nivel deberían ser más procedimentales, ligadas a la regulación y concienciación.  Dentro de éstas se pueden incluir:</p>
+
+            <ul id="lista">
+            <li>Definición de políticas de seguridad que presenten las correspondientes violaciones con el fin de dar cumplimiento.</li>
+            <li>Controles relacionados a acuerdos con terceros, prestación de servicios que se puedan dar con éstos y segregación de funciones.</li>
+            <li>Controles a nivel contratación de personal.</li>
+            <li>Gestión antes, durante y después de la terminación de los contratos.</li>
+            <li>Educación y capacitación continua en aspectos de seguridad.</li>
+            <li>Procedimientos e instructivos para manejo de información.</li>
+            <li>Políticas de escritorio y pantalla limpia.</li>
+            <li>Cumplimiento de legislación aplicable, entre otros.</li>
+            </ul>
+
+            <p>Con estos conceptos, damos por finalizada la primera parte del presente curso de seguridad informática.  En la siguiente sección, estaremos tratando qué es un estándar de seguridad informática y cuáles son los principales modelos que existen.</p>
+        </article>
         </section>
         <section id="presentacion2"><p>&nbsp;</p></section>
     <aside>

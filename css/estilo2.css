@@ -137,6 +137,15 @@ padding: 10px 5px 10px 5px;
 
 }
 
+table{
+margin-left: 20px;
+float: left;
+}
+
+th{
+padding: 10px 10px 10px 10px;
+}
+
 footer{
 float: left;
 margin-left: 10%;
